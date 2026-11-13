@@ -47,11 +47,22 @@ export const HERO_CHAPTERS = [
 ] as const;
 
 export const CATEGORIES = [
-  { id: 'birthday', name: 'Birthday Cakes', slug: 'birthday', image: 'https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=900' },
-  { id: 'chocolate', name: 'Chocolate Cakes', slug: 'chocolate', image: 'https://images.pexels.com/photos/31336126/pexels-photo-31336126.jpeg?auto=compress&cs=tinysrgb&w=900' },
-  { id: 'fruit-cream', name: 'Fruit & Cream Cakes', slug: 'fruit-cream', image: 'https://images.pexels.com/photos/6990073/pexels-photo-6990073.jpeg?auto=compress&cs=tinysrgb&w=900' },
-  { id: 'cupcakes', name: 'Cupcakes & Jars', slug: 'cupcakes', image: 'https://images.pexels.com/photos/8211309/pexels-photo-8211309.jpeg?auto=compress&cs=tinysrgb&w=900' },
+  { id: 'birthday', name: 'Birthday Cakes', slug: 'birthday', image: 'https://images.pexels.com/photos/33759172/pexels-photo-33759172.jpeg?auto=compress&cs=tinysrgb&w=900' },
+  { id: 'chocolate', name: 'Chocolate Cakes', slug: 'chocolate', image: 'https://images.pexels.com/photos/39800488/pexels-photo-39800488.jpeg?auto=compress&cs=tinysrgb&w=900' },
+  { id: 'fruit-cream', name: 'Fruit & Cream Cakes', slug: 'fruit-cream', image: 'https://images.pexels.com/photos/3913295/pexels-photo-3913295.jpeg?auto=compress&cs=tinysrgb&w=900' },
+  { id: 'cupcakes', name: 'Cupcakes & Jars', slug: 'cupcakes', image: 'https://images.pexels.com/photos/11128671/pexels-photo-11128671.jpeg?auto=compress&cs=tinysrgb&w=900' },
 ] as const;
+
+export const PRODUCT_IMAGES = {
+  'mirror-glaze-chocolate': 'https://images.pexels.com/photos/4396304/pexels-photo-4396304.jpeg?auto=compress&cs=tinysrgb&w=900',
+  'red-velvet': 'https://images.pexels.com/photos/38774006/pexels-photo-38774006.jpeg?auto=compress&cs=tinysrgb&w=900',
+  'black-forest': 'https://images.pexels.com/photos/8802102/pexels-photo-8802102.jpeg?auto=compress&cs=tinysrgb&w=900',
+  butterscotch: 'https://images.pexels.com/photos/2688948/pexels-photo-2688948.jpeg?auto=compress&cs=tinysrgb&w=900',
+  'fresh-fruit': 'https://images.pexels.com/photos/3913295/pexels-photo-3913295.jpeg?auto=compress&cs=tinysrgb&w=900',
+  'pineapple-cream': 'https://images.pexels.com/photos/13963474/pexels-photo-13963474.jpeg?auto=compress&cs=tinysrgb&w=900',
+  rasmalai: 'https://images.pexels.com/photos/29177190/pexels-photo-29177190.jpeg?auto=compress&cs=tinysrgb&w=900',
+  'chocolate-truffle': 'https://images.pexels.com/photos/34802626/pexels-photo-34802626.jpeg?auto=compress&cs=tinysrgb&w=900',
+} as const;
 
 export const SHOP_FILTERS = ['All', 'Birthday', 'Chocolate', 'Fruit & Cream', 'Cupcakes & Jars', 'Eggless'] as const;
 
@@ -62,9 +73,9 @@ export const SORT_OPTIONS = [
 ] as const;
 
 export const GIFT_BOXES = [
-  { id: 'gift-1', name: 'Cake + Chocolate Box', description: 'A 500 g cake of your choice paired with a box of 12 handcrafted chocolates.', price: 1290, image: 'https://picsum.photos/seed/gift-cake-choco/800/600', tag: null as string | null },
-  { id: 'gift-2', name: 'Cupcake Box of 6', description: 'Six assorted cupcakes in a matte black gift box with a handwritten note card.', price: 690, image: 'https://picsum.photos/seed/gift-cupcake-box/800/600', tag: 'Most loved' as string | null },
-  { id: 'gift-3', name: 'Celebration Hamper', description: 'A 1 kg cake, 6 cupcakes, a jar of chocolate truffle, and a candle set.', price: 1890, image: 'https://picsum.photos/seed/gift-hamper/800/600', tag: null as string | null },
+  { id: 'gift-1', name: 'Cake + Chocolate Box', description: 'A 500 g cake of your choice paired with a box of 12 handcrafted chocolates.', price: 1290, image: 'https://images.pexels.com/photos/10390457/pexels-photo-10390457.jpeg?auto=compress&cs=tinysrgb&w=900', tag: null as string | null },
+  { id: 'gift-2', name: 'Cupcake Box of 6', description: 'Six assorted cupcakes in a matte black gift box with a handwritten note card.', price: 690, image: 'https://images.pexels.com/photos/7180271/pexels-photo-7180271.jpeg?auto=compress&cs=tinysrgb&w=900', tag: 'Most loved' as string | null },
+  { id: 'gift-3', name: 'Celebration Hamper', description: 'A 1 kg cake, 6 cupcakes, a jar of chocolate truffle, and a candle set.', price: 1890, image: 'https://images.pexels.com/photos/7180260/pexels-photo-7180260.jpeg?auto=compress&cs=tinysrgb&w=900', tag: null as string | null },
 ] as const;
 
 export const WHY_US = [
